@@ -15,18 +15,18 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
     // fields of the class
     // Other methods and overrides
 
 
     static {
-      System.loadLibrary("arduinohc05app");
+        System.loadLibrary("arduinohc05app");
     }
     BluetoothAdapter bluetoothAdapter;
     int REQUEST_ENABLE_BLUETOOTH = 1;
 
-    public MainActivity() {
+    public MainActivity2() {
     }
 
 
