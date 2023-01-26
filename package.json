@@ -1,5 +1,5 @@
 {
-  "name": "arduinohc05app",
+  "name": "@hoodedunicorn/arduinohc05app",
   "version": "0.1.8",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
@@ -19,7 +19,7 @@
     "release:major": "standard-version --release-as major"
   },
   "repository": {
-    "url": "git://github.com/hoodedunicorn/arduinohc05app.git"
+    "url": "git://https://github.com/hoodedunicorn/ArduinoHC05App.git"
   },
   "publishConfig": {
     "@hoodedunicorn:registry": "https://npm.pgk.github.com/"
