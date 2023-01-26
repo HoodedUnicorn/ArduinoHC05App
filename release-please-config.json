@@ -1,5 +1,5 @@
 {
   "packages": {
-    "path/to/pkg": "C:\\Users\\HoodedUnicorn\\AndroidStudioProjects\\ArduinoHC05App\\package.json"
+    "path/to/pkg": "ArduinoHC05App\\package.json"
   }
 }
