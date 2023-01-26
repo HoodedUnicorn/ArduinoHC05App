@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.9...v0.1.10) (2023-01-26)
+
+
+### Bug Fixes
+
+* added .npmignore for a bit more security ([ddd68c2](https://github.com/mokkapps/changelog-generator-demo/commits/ddd68c2d106f36a3a7f53c9a5623706f2c414cbb))
+* copied release-please.yml in rootdir, named it release-please-gh-action.yml and the one that stayed in workflows release-please-ci.yml ([821edb5](https://github.com/mokkapps/changelog-generator-demo/commits/821edb5f72a39d6b837e1aedadcef412c80de44b))
+
 ### [0.1.9](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.8...v0.1.9) (2023-01-26)
 
 
