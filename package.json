@@ -23,7 +23,6 @@
     "@hoodedunicorn:registry": "https://npm.pgk.github.com/"
   },
   "dependencies": {
-    "release-please": "^15.3.0",
     "release-it": "^15.1.1"
   },
   "release-it": {
