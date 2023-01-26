@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: $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
           command: manifest
           release-type: node
           package-name: release-please-action
