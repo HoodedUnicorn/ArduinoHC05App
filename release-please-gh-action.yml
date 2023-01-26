@@ -10,7 +10,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          command: manifest
+          command: release
           release-type: package.json
           package-name: ArduinoHC05App
-          package-path: package.json
+          path: path/to/pkg
