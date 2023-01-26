@@ -1,0 +1,54 @@
+{
+  "name": "ArduinoHC05App",
+  "version": "0.1.6",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "cypress": "^7.1.0",
+    "husky": "^8.0.3",
+    "jest": "^27.5.1",
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "test": "jest",
+    "e2e": "cypress run",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
+  },
+  "dependencies": {
+    "release-please": "^15.3.0",
+    "release-it": "^15.1.1"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "Changelog.md",
+        "preset": {
+          "name": "conventionalcommits",
+          "types": [
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
