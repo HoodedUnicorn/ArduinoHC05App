@@ -11,5 +11,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           command: manifest
-          release-type: node
+          release-type: package.json
           package-name: ArduinoHC05App
