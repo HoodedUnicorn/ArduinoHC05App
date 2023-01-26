@@ -1,6 +1,6 @@
 {
   "name": "arduinohc05app",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
