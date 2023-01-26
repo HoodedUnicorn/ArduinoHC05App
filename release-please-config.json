@@ -1,5 +1,5 @@
 {
   "packages": {
-    "path/to/pkg": {}
+    "path/to/pkg": "https://github.com/HoodedUnicorn/ArduinoHC05App/package.json"
   }
 }
