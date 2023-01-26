@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          token: $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
+          token: $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
           command: manifest
           release-type: node
-          package-name: release-please-action
+          package-name: ArduinoHC05App

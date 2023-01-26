@@ -4,6 +4,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "cypress": "^7.1.0",
     "husky": "^8.0.3",
     "jest": "^27.5.1",
     "standard-version": "^9.5.0"
@@ -11,6 +12,7 @@
   "scripts": {
     "prepare": "husky install",
     "test": "jest",
+    "e2e": "cypress run",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
@@ -23,6 +25,7 @@
     "@hoodedunicorn:registry": "https://npm.pgk.github.com/"
   },
   "dependencies": {
+    "release-please": "^15.3.0",
     "release-it": "^15.1.1"
   },
   "release-it": {
