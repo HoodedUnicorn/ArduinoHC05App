@@ -1,6 +1,6 @@
 {
   "name": "@hoodedunicorn/arduinohc05app",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
