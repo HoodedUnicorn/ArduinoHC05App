@@ -10,11 +10,9 @@
     "@commitlint/config-conventional": "^17.4.2",
     "cypress": "^7.1.0",
     "husky": "^8.0.3",
-    "jest": "^27.5.1",
     "standard-version": "^9.5.0"
   },
   "scripts": {
-    "prepare": "husky install",
     "test": "jest",
     "e2e": "cypress run",
     "release": "standard-version",
@@ -24,14 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://https://github.com/hoodedunicorn/ArduinoHC05App.git"
+    "url": "https://github.com/hoodedunicorn/ArduinoHC05App.git"
   },
   "publishConfig": {
     "@hoodedunicorn:registry": "https://npm.pgk.github.com/"
   },
   "dependencies": {
     "@hoodedunicorn/arduinohc05app": "github:hoodedunicorn/arduinohc05app",
-    "release-please": "^15.3.0"
+    "release-please": "^15.3.0",
+    "release-it": "^15.1.1"
   },
   "release-it": {
     "git": {
@@ -41,7 +40,7 @@
       "release": true
     },
     "npm": {
-      "publish": true
+      "publish": false
     },
     "plugins": {
       "@release-it/conventional-changelog": {
@@ -62,7 +61,7 @@
       }
     }
   },
-  "description": "<h2> What will it do? </h2>\r It is used for connecting via Bluetooth to a HC-05 module that is connected via Arduino, Turning the LED connected on and off. <br>\r Or at least that is what I want it to do, Now let see if it can actually do that.",
+  "description": "",
   "bugs": {
     "url": "https://github.com/hoodedunicorn/arduinohc05app/issues"
   }
