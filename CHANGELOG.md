@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.11...v0.1.12) (2023-01-27)
+
+
+### Bug Fixes
+
+* added .npmrc ([04bb8e0](https://github.com/mokkapps/changelog-generator-demo/commits/04bb8e09cf7737d0425b720876fcf50a0e08be6a))
+* fixed .npmrc to be included in .gitignore ([3df11bd](https://github.com/mokkapps/changelog-generator-demo/commits/3df11bdb0178d4d5d354598e7e39c02146e38d3a))
+
+### [0.1.10](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.9...v0.1.10) (2023-01-26)
 
 ### [0.1.11](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.9...v0.1.11) (2023-01-27)
 
