@@ -1,6 +1,10 @@
 {
   "name": "@hoodedunicorn/arduinohc05app",
   "version": "0.1.14",
+  "author": "hoodedunicorn",
+  "homepage": "https://github.com/hoodedunicorn/arduinohc05app",
+  "main": "commitlint.config.js",
+  "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
@@ -19,6 +23,7 @@
     "release:major": "standard-version --release-as major"
   },
   "repository": {
+    "type": "git",
     "url": "git://https://github.com/hoodedunicorn/ArduinoHC05App.git"
   },
   "publishConfig": {
@@ -60,9 +65,6 @@
   "description": "<h2> What will it do? </h2>\r It is used for connecting via Bluetooth to a HC-05 module that is connected via Arduino, Turning the LED connected on and off. <br>\r Or at least that is what I want it to do, Now let see if it can actually do that.",
   "bugs": {
     "url": "https://github.com/hoodedunicorn/arduinohc05app/issues"
-  },
-  "homepage": "https://github.com/hoodedunicorn/arduinohc05app#readme",
-  "main": "commitlint.config.js",
-  "author": "",
-  "license": "ISC"
+  }
+
 }
