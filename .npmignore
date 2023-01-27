@@ -5,4 +5,8 @@
 *.iml
 out
 gen
+<<<<<<< HEAD
 .npmrc
+=======
+.npmrc
+>>>>>>> 002cf37330b3c62cce9fa5f059df84df135bfe1c

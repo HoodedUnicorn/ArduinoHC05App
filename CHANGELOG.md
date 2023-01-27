@@ -2,6 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<<<<<<< HEAD
 ### [0.1.11](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.9...v0.1.11) (2023-01-27)
 
 
@@ -11,6 +12,8 @@ All notable changes to this project will be documented in this file. See [standa
 * copied release-please.yml in rootdir, named it release-please-gh-action.yml and the one that stayed in workflows release-please-ci.yml ([821edb5](https://github.com/mokkapps/changelog-generator-demo/commits/821edb5f72a39d6b837e1aedadcef412c80de44b))
 * hopefully fixed the security issue now ([0d553ed](https://github.com/mokkapps/changelog-generator-demo/commits/0d553edfa46dffe5e47e692de38c1ebe229bc84f))
 
+=======
+>>>>>>> 002cf37330b3c62cce9fa5f059df84df135bfe1c
 ### [0.1.10](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.9...v0.1.10) (2023-01-26)
 
 
