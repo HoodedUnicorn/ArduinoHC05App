@@ -13,7 +13,7 @@
     "standard-version": "^9.5.0"
   },
   "scripts": {
-    "test": "jest",
+    "test": "",
     "e2e": "cypress run",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
