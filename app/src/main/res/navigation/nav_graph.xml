@@ -18,4 +18,13 @@
         android:name="com.example.arduinohc05app.MainActivity2"
         android:label="activity_main2"
         tools:layout="@layout/activity_main2" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.arduinohc05app.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>

@@ -15,6 +15,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import com.example.arduinohc05app.R;
+
 public class MainActivity2 extends AppCompatActivity {
     // fields of the class
     // Other methods and overrides

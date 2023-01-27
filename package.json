@@ -25,6 +25,7 @@
     "@hoodedunicorn:registry": "https://npm.pgk.github.com/"
   },
   "dependencies": {
+    "@hoodedunicorn/arduinohc05app": "github:hoodedunicorn/arduinohc05app",
     "release-please": "^15.3.0"
   },
   "release-it": {
