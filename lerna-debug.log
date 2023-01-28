@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   registry: 'https://npm.pkg.github.com',
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.4.1',
+0 silly argv   '$0': '..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v6.4.1
+2 verbose rootPath C:\Users\HoodedUnicorn\AndroidStudioProjects\ArduinoHC05App
+3 verbose session 36edf40cff2ea3ab
+4 verbose user-agent lerna/6.4.1/node@v18.13.0+x64 (win32)
+5 error Error: Failed to replace env in config: ${npm-token}
+5 error     at C:\Users\HoodedUnicorn\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\npm-conf\lib\env-replace.js:23:13
+5 error     at String.replace (<anonymous>)
+5 error     at envReplace (C:\Users\HoodedUnicorn\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\npm-conf\lib\env-replace.js:14:14)
+5 error     at Conf.add (C:\Users\HoodedUnicorn\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\npm-conf\lib\conf.js:25:24)
+5 error     at ConfigChain.addEnv (C:\Users\HoodedUnicorn\AppData\Roaming\npm\node_modules\lerna\node_modules\config-chain\index.js:207:15)
+5 error     at Conf.addEnv (C:\Users\HoodedUnicorn\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\npm-conf\lib\conf.js:78:18)
+5 error     at npmConf (C:\Users\HoodedUnicorn\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\npm-conf\lib\npm-conf.js:30:8)
+5 error     at PublishCommand.initialize (C:\Users\HoodedUnicorn\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\publish\index.js:135:17)
