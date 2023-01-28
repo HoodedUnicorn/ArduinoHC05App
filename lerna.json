@@ -6,9 +6,9 @@
   "useWorkspaces": true,
   "version": "independent",
   "command": {
-      "publish": {
-        "allowBranch": "master",
-        "conventionalCommits": true
-      }
+    "publish": {
+      "allowBranch": "master",
+      "conventionalCommits": true
+    }
   }
 }

@@ -8,14 +8,12 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
-    "cypress": "^7.1.0",
     "husky": "^8.0.3",
     "lerna": "^6.4.1",
     "standard-version": "^9.5.0"
   },
   "scripts": {
     "test": "",
-    "e2e": "cypress run",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
